@@ -3,12 +3,12 @@ import "./App.scss";
 
 //Components
 import Main from "./components/Main/Main";
-import Sidebar from "./components/Sidebar/Sidebar";
+import Menu from "./components/Menu/Menu";
 
 const App = () => {
   return (
     <div className="App">
-      <Sidebar />
+      <Menu />
       <Main />
     </div>
   );

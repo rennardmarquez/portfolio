@@ -1,0 +1,16 @@
+.email {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  transform-origin: right top;
+  transform: translateY(100%) rotate(90deg);
+
+  padding: 40px;
+
+  font-family: "Calibre-Regular";
+  font-size: 18px;
+  text-align: end;
+
+  color: #a8b2d1;
+}

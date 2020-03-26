@@ -6,7 +6,10 @@ import { ReactComponent as Logo } from "../../assets/rm-logo.svg";
 
 const Menu = () => (
   <div className="header">
-    <Logo className="logo" />
+    <div className="logo-container">
+      <Logo className="logo" />
+      <span className="name">RENNARD MARQUEZ</span>
+    </div>
 
     <div className="menu">
       <div className="about">About</div>
