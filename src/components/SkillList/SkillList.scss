@@ -1,0 +1,23 @@
+.skills {
+  margin-top: 50px;
+
+  h2 {
+    font-family: "calibre semibold";
+    line-height: 0.9;
+  }
+
+  p {
+    margin-bottom: 20px;
+  }
+
+  .skill-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    width: 100%;
+
+    .skill {
+      margin-bottom: 10px;
+    }
+  }
+}

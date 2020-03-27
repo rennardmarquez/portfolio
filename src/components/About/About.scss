@@ -1,10 +1,60 @@
 .about-container {
   width: auto;
-  height: 100vh;
+  min-height: 100vh;
+  padding: 150px;
 
   background-color: green;
 
-  h2 {
-    font-family: "Calibre-Semibold";
+  .about-title {
+    display: flex;
+    width: 100%;
+    margin-bottom: 60px;
+
+    .number {
+    }
+
+    .number::after {
+      content: "";
+      position: relative;
+      display: inline-block;
+      vertical-align: middle;
+
+      margin: 0 20px;
+      width: 150px;
+      height: 1px;
+      border-top: 1px solid black;
+    }
+  }
+
+  .about-content {
+    display: flex;
+    flex-direction: row;
+
+    .content {
+      width: 60%;
+
+      h2 {
+        font-family: "calibre semibold";
+        font-size: 80px;
+        line-height: 0.85;
+      }
+
+      p {
+        font-family: "calibre regular";
+        font-size: 40px;
+        line-height: 1;
+      }
+    }
+  }
+
+  .portrait-container {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    .portrait {
+      max-width: 80%;
+    }
   }
 }
