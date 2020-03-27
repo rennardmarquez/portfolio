@@ -4,13 +4,14 @@ import "./Home.scss";
 //components
 import Email from "../Email/Email";
 import SocialMedia from "../SocialMedia/SocialMedia";
+import Astronaut from "../../assets/astronaut.png";
 
 const Home = () => (
   <div className="home-container">
     <Email />
     <SocialMedia />
+    <img src={Astronaut} alt="Astronaut" className="astronaut" />
     <h1 className="hello">Hello.</h1>
-    <span className="title">Software Developer & Designer</span>
   </div>
 );
 

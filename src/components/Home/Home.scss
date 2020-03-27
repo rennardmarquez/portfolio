@@ -13,14 +13,20 @@ $bg-color: #172a45;
 
   background-color: $bg-color;
 
-  .hello {
-    // margin: 0;
-    // padding: 0;
+  .astronaut {
+    position: absolute;
+    width: auto;
+    height: 500px;
+    z-index: 0;
+  }
 
-    font-family: "Calibre Semibold";
+  .hello {
+    height: 150px;
+    z-index: 1;
+    font-family: "calibre medium";
     font-size: 250px;
     text-align: center;
-    line-height: 1;
+    line-height: 0.9;
 
     color: #db4c77;
   }
