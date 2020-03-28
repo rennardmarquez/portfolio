@@ -31,3 +31,9 @@
     background-color: #a8b2d1;
   }
 }
+
+@media (max-width: 767px) {
+  .social-media {
+    display: none;
+  }
+}

@@ -41,3 +41,17 @@ $bg-color: #172a45;
     color: #a8b2d1;
   }
 }
+
+@media (max-width: 767px) {
+  .home-container {
+    padding: 50px;
+
+    .astronaut {
+      height: 450px;
+    }
+
+    .hello {
+      font-size: 230px;
+    }
+  }
+}

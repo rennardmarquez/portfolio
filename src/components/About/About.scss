@@ -42,3 +42,40 @@
     }
   }
 }
+
+@media (max-width: 1000px) {
+  .about-container {
+    padding: 80px;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-container {
+    padding: 50px;
+
+    .about-content {
+      flex-direction: column;
+      width: 100%;
+
+      .content {
+        width: auto;
+        text-align: center;
+
+        h2 {
+          font-size: 40px;
+        }
+
+        p {
+          font-size: 20px;
+        }
+      }
+
+      .portrait-container {
+        width: 100%;
+        .portrait {
+          width: 250px;
+        }
+      }
+    }
+  }
+}

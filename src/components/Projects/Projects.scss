@@ -5,3 +5,15 @@
 
   background-color: #ee5f3c;
 }
+
+@media (max-width: 1000px) {
+  .projects-container {
+    padding: 80px;
+  }
+}
+
+@media (max-width: 767px) {
+  .projects-container {
+    padding: 50px;
+  }
+}

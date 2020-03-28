@@ -31,3 +31,25 @@
     }
   }
 }
+
+@media (max-width: 1000px) {
+  .contact-container {
+    padding: 80px;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact-container {
+    padding: 50px;
+
+    .contact-content {
+      .contact-header {
+        font-size: 40px;
+      }
+
+      a {
+        font-size: 30px;
+      }
+    }
+  }
+}
