@@ -8,19 +8,26 @@
   align-items: center;
   justify-content: space-between;
 
-  height: 200px;
+  height: auto;
   width: 110px;
 
-  padding-bottom: 40px;
-
-  .icon {
+  .social-media-icon {
     width: 20px;
     height: 20px;
+    margin-bottom: 20px;
 
     fill: #a8b2d1;
 
     &:hover {
       cursor: pointer;
     }
+  }
+
+  &::after {
+    content: "";
+    position: relative;
+    height: 120px;
+    width: 1px;
+    background-color: #a8b2d1;
   }
 }

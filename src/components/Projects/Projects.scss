@@ -4,28 +4,4 @@
   padding: 120px;
 
   background-color: #ee5f3c;
-
-  .projects-title {
-    display: flex;
-    width: 100%;
-    margin-bottom: 60px;
-
-    .number {
-    }
-
-    .number::after {
-      content: "";
-      position: relative;
-      display: inline-block;
-      vertical-align: middle;
-
-      margin: 0 20px;
-      width: 150px;
-      height: 1px;
-      border-top: 1px solid black;
-    }
-  }
-
-  .projects-content {
-  }
 }

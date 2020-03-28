@@ -2,15 +2,13 @@ import React from "react";
 import "./About.scss";
 
 //Components
+import SectionTitle from "../SectionTitle/SectionTitle";
 import SkillList from "../SkillList/SkillList";
 import Portrait from "../../assets/rennard-marquez.jpg";
 
 const About = () => (
-  <div className="about-container">
-    <div className="about-title">
-      <span className="number">01</span>
-      <span>About</span>
-    </div>
+  <div className="about-container" id="about">
+    <SectionTitle number="01" title="About" />
 
     <div className="about-content">
       <div className="content">

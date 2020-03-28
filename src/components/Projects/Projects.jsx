@@ -3,15 +3,13 @@ import "./Projects.scss";
 
 //components
 import Project from "../Project/Project";
+import SectionTitle from "../SectionTitle/SectionTitle";
 import CovidTracker from "../../assets/covid-tracker.png";
 import RoyalClothing from "../../assets/royal-clothing.png";
 
 const Projects = () => (
-  <div className="projects-container">
-    <div className="projects-title">
-      <span className="number">01</span>
-      <span>Projects</span>
-    </div>
+  <div className="projects-container" id="projects">
+    <SectionTitle number="02" title="Projects" />
 
     <div className="projects-content">
       <Project

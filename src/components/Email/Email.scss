@@ -2,15 +2,32 @@
   position: absolute;
   bottom: 0;
   right: 0;
-
   transform-origin: right top;
   transform: translateY(100%) rotate(90deg);
 
-  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
 
-  font-family: "Calibre regular";
-  font-size: 18px;
-  text-align: end;
+  max-width: 300px;
+  width: auto;
+  height: 110px;
 
-  color: #a8b2d1;
+  font-family: "league mono regular";
+  font-size: 14px;
+
+  &::after {
+    content: "";
+    position: relative;
+    height: 1px;
+    width: 120px;
+    background-color: #a8b2d1;
+  }
+
+  a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #a8b2d1;
+  }
 }

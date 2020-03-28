@@ -7,7 +7,7 @@ import SocialMedia from "../SocialMedia/SocialMedia";
 import Astronaut from "../../assets/astronaut.png";
 
 const Home = () => (
-  <div className="home-container">
+  <div className="home-container" id="home">
     <Email />
     <SocialMedia />
     <img src={Astronaut} alt="Astronaut" className="astronaut" />

@@ -1,11 +1,4 @@
-@import "./fonts/Calibre/calibre.css";
-
-@font-face {
-  font-family: "Sofia Pro bold";
-  src: url("./fonts/SofiaProBold.ttf") format("truetype");
-  // url("./fonts/SofiaProBold.woff2") format("woff2"),
-  // url("./fonts/SofiaProBold.woff") format("woff");
-}
+@import "./fonts/Calibre/style.css", "./fonts/LeagueMono/style.css";
 
 * {
   box-sizing: border-box;
