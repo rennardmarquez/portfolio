@@ -1,0 +1,53 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+
+  width: auto;
+  padding: 120px;
+
+  //   background-color: #ee5f3c;
+  .projects-title {
+    display: flex;
+    width: 100%;
+    margin-bottom: 60px;
+
+    .number {
+    }
+
+    .number::after {
+      content: "";
+      position: relative;
+      display: inline-block;
+      vertical-align: middle;
+
+      margin: 0 20px;
+      width: 150px;
+      height: 1px;
+      border-top: 1px solid black;
+    }
+  }
+
+  .contact-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    .contact-header {
+      font-family: "calibre semibold";
+      font-size: 60px;
+    }
+
+    a {
+      font-family: "calibre semibold";
+      font-size: 40px;
+      color: blue;
+      text-decoration-color: green;
+    }
+
+    .icon {
+      width: 30px;
+      height: 30px;
+      margin: 20px;
+    }
+  }
+}

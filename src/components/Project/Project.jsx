@@ -5,8 +5,8 @@ import "./Project.scss";
 import { ReactComponent as Github } from "../../assets/github.svg";
 import { ReactComponent as ExternalLink } from "../../assets/external-link.svg";
 
-const Project = ({ title, description, imgSource, alt }) => (
-  <div className="project-container">
+const Project = ({ title, description, imgSource, alt, addClass }) => (
+  <div className={`project-container ${addClass}`}>
     <div className="content">
       <div className="title">{title}</div>
       <div className="description">{description}</div>
