@@ -5,4 +5,4 @@
   rennardmarquez.com
 </h1>
 
-This is V1 of my portfolio [rennardmarquez.com](https://rennardmarquez.com).
+This is V1 of my portfolio [rennardmarquez.com](https://rennardmarquez.com). Changes will be made soon.
